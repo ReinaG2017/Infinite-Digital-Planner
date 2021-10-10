@@ -14,6 +14,7 @@ nav.primary-navbar a{
     color: black;
     display: flex;
     list-style: none;
+    text-decoration: none;
 }
 
 nav.primary-navbar h1 {
@@ -40,21 +41,29 @@ Section.hero {
     height: 100vh;
 }
 
-section.hero img{
-    max-width:9%;
-    height:auto;
+section.hero div {
+    text-align: center;
+   position: center;
+   background-image: stretch;
+}
+
+section.hero div img{
+    display: inline-block;
+    height:6rem;
 }
 
 section.hero ul.nav-tabs {
     display: flex;
     list-style: none;
     padding: 0;
+    text-decoration: none;
 }
 section.hero ul.nav-tabs li a {
     color:  black;
     display: flex;
     list-style: none;
     padding: 2rem 5.85rem;
+    text-decoration: none;
 
 }
 
@@ -78,6 +87,7 @@ footer.primary-footer ul.socialnav {
     position: relative;
     padding: 0;
     margin: 2rem;
+    text-decoration: none;
 
 }
 footer.primary-footer ul.socialnav li a {
@@ -85,6 +95,7 @@ display: flex;
 list-style: none;
 padding: 0.5rem 1rem;
 color: black;
+text-decoration: none;
 }
 
 
