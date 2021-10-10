@@ -4,47 +4,81 @@ body{
   font-family: 'Patrick Hand', cursive;
 }
 
-
-
-
-
-nav.primary-navbar{
+nav.primary-navbar {
   padding: 2rem;
   display: flex;
-  background-color: pink;
-
-
+  background-color: #DAF7A6;
 }
-nav.primary-navbar img{
-    max-width:20%;
+nav.primary-navbar img {
+    max-width:10%;
     height:auto;
-    background-color: pink;
-  
-
-
 }
-nav.primary-navbar ul.nav{
+
+nav.primary-navbar a {
+color: black;
     display: flex;
-    Padding: 0.5rem;
-    list-style-type: none
-    font-size: 2rem;
-    font-weight: 300;
+    list-style: none;
+    padding: 0;
+}
 
-
+nav.primary-navbar h1 {
+   text-align: center;
+   position: relative;
+   bottom: 80px;
 
 }
-nav.primary-navbar ul.nav li.a {
- 
 
-    
+nav.primary-navbar p {
+   text-align: center;
+   position: relative;
+   bottom: 85px;
 }
-footer.primary-footer img{
-    max-width:20%;
-    height:auto;
-    background-color: lightblue;
+nav.primary-navbar div.brand a img {
+    max-width:10%;
+    height:auto;    
 }
+
 section.hero img{
     max-width:9%;
     height:auto;
-    background-color: indianred;
 }
+
+section.hero ul.nav-tabs {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+section.hero ul.nav-tabs li a {
+    color:  black;
+    display: flex;
+    list-style: none;
+    padding: 2rem 5.85rem;
+    background-color: #FFC300
+}
+section.hero img {
+    max-width:10rem;
+    height:auto;
+
+
+}
+footer.primary-footer div.logo img {
+  display: inline-block;
+    height:1.5rem;
+    float: center;
+}
+
+
+footer.primary-footer ul.nav-social li {
+    float: left;
+    color:  black;
+    display: flex;
+    list-style: none;
+    padding: 2rem 5.85rem;
+    background-color: #FFC300
+
+}
+
+
+
+
+
