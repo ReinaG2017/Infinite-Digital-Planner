@@ -4,43 +4,47 @@ body{
   font-family: 'Patrick Hand', cursive;
 }
 
+
+
+
+
 nav.primary-navbar{
   padding: 2rem;
   display: flex;
-  background-color: DAF7A6;
+  background-color: pink;
 
 
 }
 nav.primary-navbar img{
     max-width:20%;
     height:auto;
-    background-color: DAF7A6;
+    background-color: pink;
+  
 
 
 }
 nav.primary-navbar ul.nav{
-  display: flex;
-    Padding: 0;
-    list-style-type: square;
-    word-spacing: 5rem;
+    display: flex;
+    Padding: 0.5rem;
+    list-style-type: none
     font-size: 2rem;
-    font-weight: 600;
+    font-weight: 300;
+
 
 
 }
 nav.primary-navbar ul.nav li.a {
-    display:flex;
-    Padding:0.5rem 1rem;
-    list-style-type: square;
+ 
 
     
 }
 footer.primary-footer img{
     max-width:20%;
     height:auto;
-    background-color: DAF7A6;
+    background-color: lightblue;
 }
 section.hero img{
     max-width:9%;
     height:auto;
+    background-color: indianred;
 }
