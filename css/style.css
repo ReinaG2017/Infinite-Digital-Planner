@@ -5,20 +5,15 @@ body{
 }
 
 nav.primary-navbar {
-  padding: 2rem;
+  padding: 1rem;
   display: flex;
   background-color: #DAF7A6;
 }
-nav.primary-navbar img {
-    max-width:10%;
-    height:auto;
-}
 
-nav.primary-navbar a {
-color: black;
+nav.primary-navbar a{
+    color: black;
     display: flex;
     list-style: none;
-    padding: 0;
 }
 
 nav.primary-navbar h1 {
@@ -32,10 +27,17 @@ nav.primary-navbar p {
    text-align: center;
    position: relative;
    bottom: 85px;
+   flex direction: column;
+   Padding: 0;
 }
 nav.primary-navbar div.brand a img {
-    max-width:10%;
+    max-width:15%;
     height:auto;    
+    padding: 0;
+}
+Section.hero {
+    width: 100vw;
+    height: 100vh;
 }
 
 section.hero img{
@@ -53,32 +55,36 @@ section.hero ul.nav-tabs li a {
     display: flex;
     list-style: none;
     padding: 2rem 5.85rem;
-    background-color: #FFC300
-}
-section.hero img {
-    max-width:10rem;
-    height:auto;
-
 
 }
-footer.primary-footer div.logo img {
-  display: inline-block;
-    height:1.5rem;
-    float: center;
+
+
+footer.primary-footer {
+  padding: 2rem;
+  display: flex;
 }
 
+footer.primary-footer div.logo a img { 
+    display: inline-block;
+    height:6rem;
 
-footer.primary-footer ul.nav-social li {
-    float: left;
+}
+
+footer.primary-footer ul.socialnav {
     color:  black;
     display: flex;
     list-style: none;
-    padding: 2rem 5.85rem;
-    background-color: #FFC300
+    text-align: center;
+    position: relative;
+    padding: 0;
+    margin: 2rem;
 
 }
-
-
-
+footer.primary-footer ul.socialnav li a {
+display: flex;
+list-style: none;
+padding: 0.5rem 1rem;
+color: black;
+}
 
 
