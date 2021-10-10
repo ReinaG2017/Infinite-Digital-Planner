@@ -44,7 +44,6 @@ Section.hero {
 section.hero div {
     text-align: center;
    position: center;
-   background-image: stretch;
 }
 
 section.hero div img{
