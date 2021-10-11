@@ -10,6 +10,8 @@ nav.primary-navbar {
   background-color: #DAF7A6;
 }
 
+}
+
 nav.primary-navbar a{
     color: black;
     display: flex;
@@ -35,7 +37,10 @@ nav.primary-navbar div.brand a img {
     max-width:15%;
     height:auto;    
     padding: 0;
+
 }
+
+
 Section.hero {
     width: 100vw;
     height: 100vh;
@@ -48,7 +53,7 @@ section.hero div {
 
 section.hero div img{
     display: inline-block;
-    height:6rem;
+    height: 15rem;
 }
 
 section.hero ul.nav-tabs {
@@ -151,4 +156,19 @@ section.hero-products a img p {
   float:left;
   color: black;
 }
+
+
+@media screen and (min-width 1024px){
+nav.primary-navbar{
+    padding: 0
+}
+
+@media screen and (min-width 375px){
+nav.primary-navbar{
+    padding: 0
+}
+
+@media screen and (min-width 375px){
+nav.primary-navbar a{
+    padding: 0
 
