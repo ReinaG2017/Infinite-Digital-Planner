@@ -90,11 +90,65 @@ footer.primary-footer ul.socialnav {
 
 }
 footer.primary-footer ul.socialnav li a {
-display: flex;
-list-style: none;
-padding: 0.5rem 1rem;
-color: black;
-text-decoration: none;
+    color:  black;
+    display: flex;
+    list-style: none;
+    padding: 2rem 5.85rem;
+    text-decoration: none;
 }
 
+Section.hero {
+    width: 100vw;
+    height: 100vh;
+}
+
+section.hero-products div {
+   color: black;
+   text-align: center;
+   position: center;
+   text-decoration: none;
+
+}
+
+section.hero-products div img{
+    display: inline-block;
+    height:6rem;
+    margin: 2rem;
+    text-decoration: none;
+    color: black;
+}
+
+section.hero-products ul.nav-tabs-products {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    text-decoration: none;
+    color:  black;
+    display: flex;
+    list-style: none;
+    text-align: center;
+    position: relative;
+    padding: 0;
+    margin: 2rem;
+
+}
+section.hero-products ul.nav-tabs-products li a {
+    color:  black;
+    display: flex;
+    list-style: none;
+    padding: 2rem 5.85rem;
+    text-decoration: none;
+}
+
+section.hero-products a img p {
+ width:200px;
+  text-align:center;
+  display:block;
+  background-color: transparent;
+  border: 1px solid transparent;
+  margin-right: 10px;
+  margin-bottom: 1px;
+  float:left;
+  color: black;
+}
 
