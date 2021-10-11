@@ -158,17 +158,19 @@ section.hero-products a img p {
 }
 
 
-@media screen and (min-width 1024px){
+@media screen and (max-width 480px){
 nav.primary-navbar{
     padding: 0
 }
 
 @media screen and (min-width 375px){
-nav.primary-navbar{
-    padding: 0
+nav.primary-navbar h1{
+  textsize: 2rem
 }
 
-@media screen and (min-width 375px){
-nav.primary-navbar a{
+
+@media screen and (max-width 100%p){
+section.hero-products a img p {
     padding: 0
+}
 
