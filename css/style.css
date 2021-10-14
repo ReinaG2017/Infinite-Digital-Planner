@@ -10,8 +10,6 @@ nav.primary-navbar {
   background-color: #DAF7A6;
 }
 
-}
-
 nav.primary-navbar a{
     color: black;
     display: flex;
@@ -158,19 +156,4 @@ section.hero-products a img p {
 }
 
 
-@media screen and (max-width 480px){
-nav.primary-navbar{
-    padding: 0
-}
-
-@media screen and (min-width 375px){
-nav.primary-navbar h1{
-  textsize: 2rem
-}
-
-
-@media screen and (max-width 100%p){
-section.hero-products a img p {
-    padding: 0
-}
 
