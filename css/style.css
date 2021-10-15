@@ -7,11 +7,14 @@ body{
 }
 
 /*nav index page starts*/
+@media screen and (min-width: 480px) {
 nav.primary-navbar {
   padding: auto;
   display: flex;
   background-color: #DAF7A6;
   border: auto;
+
+
 }
 
 nav.primary-navbar a{
@@ -38,6 +41,7 @@ nav.primary-navbar p {
    margin: -2.3rem;
 }
 
+
 nav.primary-navbar div.brand a img {
     max-width:15%;
     height:auto;    
@@ -59,6 +63,7 @@ section.hero div {
     text-align: center;
    position: center;
 }
+
 
 section.hero div img{
     display: inline-block;
@@ -98,10 +103,11 @@ section.hero div.landing-text li {
 /*footer index page*/
 
 footer.primary-footer {
-  padding: 2rem;
+  padding: -2rem;
   display: flex;
   background-color: #DAF7A6
 }
+
 
 footer.primary-footer div.logo a img { 
     display: inline-block;
@@ -130,7 +136,7 @@ footer.primary-footer ul.socialnav li a {
 
 /*products page*/
 
-}
+
 
 }
 div.product-inserts-description h2 {
@@ -141,6 +147,7 @@ font-size: 23px;
 div.product-inserts-description p {
 color: red;
 }
+
 
 section.hero-products div img{
     position: center;
@@ -161,6 +168,8 @@ font-size: 40px;
 /*products page ends*/
 
 /*about forum starts*/
+
+
 .container
 img{ max-width:100%;}
 .inbox_people {
