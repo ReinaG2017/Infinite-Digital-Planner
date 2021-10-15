@@ -27,7 +27,6 @@ nav.primary-navbar h1 {
    position: relative;
    bottom: 90px;
    margin: -2rem;
-
 }
 
 nav.primary-navbar p {
@@ -38,12 +37,15 @@ nav.primary-navbar p {
    Padding: -3rem;
    margin: -2.3rem;
 }
+
 nav.primary-navbar div.brand a img {
     max-width:15%;
     height:auto;    
     padding: -5rem;
-
 }
+
+
+
 /*nav index page ends*/
 
 /*hero index page*/
@@ -60,7 +62,8 @@ section.hero div {
 
 section.hero div img{
     display: inline-block;
-    height: 15rem;
+    height: 22rem;
+    border-radius: 8px;
 }
 
 section.hero ul.nav-tabs {
@@ -78,6 +81,16 @@ section.hero ul.nav-tabs li a {
     text-decoration: none;
     margin:-2rem
 
+
+}
+
+section.hero div.landing-text h1 {
+    font-size:30px
+}
+
+section.hero div.landing-text li {
+    font-size: 25px;
+    display: inherit;
 }
 
 /*hero index ends*/
@@ -145,60 +158,11 @@ font-size: 40px;
 
 }
 
-
-
-
-
 /*products page ends*/
 
 /*about us page starts*/
 
-div.hero-aboutus img {
-    z-index: ;
-    border-radius: 8px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
- 
-div.hero-aboutus h2 {
-    font color: black;
-    font-size: 60px;
 
 }
 
-div.hero-aboutus p {
-    font color: black;
-    font-size: 30px;
-}
-
-footer.primary-footer-aboutus {
-  padding: 2rem;
-  display: flex;
-  background-color: #DAF7A6
-}
-
-footer.primary-footer-aboutus div.logo a img { 
-    display: inline-block;
-    height:6rem;
-}
-
-footer.primary-footeraboutus ul.socialnav {
-    color:  black;
-    display: flex;
-    list-style: none;
-    text-align: center;
-    position: relative;
-    padding: 0;
-    margin: 2rem;
-    text-decoration: none;
-
-}
-footer.primary-footer-aboutus ul.socialnav li a {
-    color:  black;
-    display: flex;
-    list-style: none;
-    padding: 2rem 5.85rem;
-    text-decoration: none;
-}
-
+/*about us page ends*/
