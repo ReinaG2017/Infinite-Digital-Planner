@@ -8,7 +8,10 @@
       <description>Infinite Digital Planners Website</description>
         <link href="css/normalize.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
- <meta name="viewport" content="width=device-width, inital-scale=1.0">     
+ <meta name="viewport" content="width=device-width, inital-scale=1.0"> 
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head> 
 
 <!-- HEAD SECTION ENDS -->
@@ -24,9 +27,15 @@
         <h1>Infinite Possibilities</h1>
           <p>Making Your Plans Happen!</p>
     </div>
-    <div class="signin">
+        <div class="signin">
       <a href="forum.html" title="Go to Sign In">Sign In</a>
-    </div>
+         <label for="fname">Username:</label><br>
+         <input type="text" id="fname" name="fname"><br>
+         <label for="lname">Password:</label><br>
+         <input type="text" id="lname" name="lname">
+        <a href="forum.html">
+           <button>Submit</button>
+        </a>
     </nav>
       <section class="hero">
         </div>
@@ -36,7 +45,75 @@
             <li><a href="aboutus.html" title="Go to About Us page">About Us</a></li>
           </ul>
         </div>
-      </section>
+
+
+
+
+
+<div class="container">
+<h3 class=" text-center">Messaging</h3>
+<div class="messaging">
+      <div class="inbox_msg">
+        <div class="inbox_people">
+          <div class="headind_srch">
+            <div class="recent_heading">
+              <h4>Recent</h4>
+            </div>
+            <div class="srch_bar">
+              <div class="stylish-input-group">
+                <input type="text" class="search-bar"  placeholder="Search" >
+                <span class="input-group-addon">
+                <button type="button"> <i class="fa fa-search" aria-hidden="true"></i> </button>
+                </span> </div>
+            </div>
+          </div>
+          <div class="inbox_chat">
+            <div class="chat_list active_chat">
+              <div class="chat_people">
+                <div class="chat_img"> <img src="https://images.freeimages.com/images/large-previews/971/basic-shape-avatar-1632968.jpg" alt="Sarah"> </div>
+                <div class="chat_ib">
+                  <h5>Sarah Doe <span class="chat_date">Dec 25</span></h5>
+                  <p>Any New ways i can make more me time in my schedule????</p>
+                </div>
+              </div>
+            </div>
+            <div class="chat_list">
+              <div class="chat_people">
+                <div class="chat_img"> <img src="https://images.freeimages.com/images/thumbs/d1f/lady-avatar-1632967.jpg" alt="Mary"> </div>
+                <div class="chat_ib">
+                  <h5>Mary Smith <span class="chat_date">Dec 25</span></h5>
+                  <p>OMG YES!! let me send you some links!!!</p>
+                </div>
+              </div>
+            </div>
+            <div class="chat_list">
+              <div class="chat_people">
+                <div class="chat_img"> <img src="https://images.freeimages.com/images/large-previews/971/basic-shape-avatar-1632968.jpg" alt="Sarah"> </div>
+                <div class="chat_ib">
+                  <h5>Sarah Doe <span class="chat_date">Dec 25</span></h5>
+                  <p>TGreat! send it to my email Sarahdoe@gmail.com</p>
+                </div>
+              </div>
+            </div>
+            <div class="chat_list">
+              <div class="chat_people">
+                <div class="chat_img"> <img src="https://images.freeimages.com/images/thumbs/d1f/lady-avatar-1632967.jpg" alt="Mary"> </div>
+                <div class="chat_ib">
+                  <h5>Mary Smith <span class="chat_date">Dec 25</span></h5>
+                  <p>glad i could help :)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="type_msg">
+            <div class="input_msg_write">
+              <input type="text" class="write_msg" placeholder="Type a message" />
+              <button class="msg_send_btn" type="button"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
+            </div>
+          </div>
+      
+    </div></div>
+
 </body>
    
 <!-- BODY SECTION ENDS -->
